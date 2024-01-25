@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/socketapp/static/css/main.e6c13ad2.css",
+    "main.js": "/socketapp/static/js/main.4a99b863.js",
+    "index.html": "/socketapp/index.html",
+    "main.e6c13ad2.css.map": "/socketapp/static/css/main.e6c13ad2.css.map",
+    "main.4a99b863.js.map": "/socketapp/static/js/main.4a99b863.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.4a99b863.js"
+  ]
+}
