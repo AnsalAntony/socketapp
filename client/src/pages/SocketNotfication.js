@@ -11,7 +11,8 @@ const SocketNotfication = () => {
   const [descriptionText, setDescriptionText] = useState("");
   const [isModalOpen, setModalOpen] = useState(false);
   const [errorText, setErrorText] = useState("");
-  const socket = io("http://localhost:3001");
+  // const socket = io("http://localhost:3001"); // dev
+  const socket = io("https://socket-app-wzpa.onrender.com");// live 
 
   const simulateNotification = (postDta) => {
     console.log("postDta **", postDta);
