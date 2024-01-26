@@ -37,7 +37,7 @@ io.on("connection", (socket) => {
     console.log("User disconnected");
   });
 });
-const PORT = 3001; // Choose a port for your WebSocket server
+const PORT = process.env.PORT || 3001; // Choose a port for your WebSocket server
 server.listen(PORT, () => {
   console.log(`WebSocket server is running on port ${PORT}`);
 });
