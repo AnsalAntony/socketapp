@@ -5,10 +5,13 @@ import cors from "cors";
 
 const app = express();
 const server = createServer(app);
+// const baseUrl = "http://localhost:3000"; // dev
+const baseUrl = "https://ansalantony.github.io"; // Live
+
 
 const io = new Server(server, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: baseUrl,
     methods: ["GET", "POST"],
     credentials: true,
   },
@@ -16,7 +19,7 @@ const io = new Server(server, {
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: baseUrl,
     methods: ["GET", "POST"],
     credentials: true,
   })
