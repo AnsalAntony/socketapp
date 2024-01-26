@@ -13,7 +13,7 @@ const CommonCard = ({
     alignItems: "center",
     flexDirection: "column",
     display: "flex",
-    backgroundColor:"#F6E4D0"
+    backgroundColor:"red"
   };
   const defatDescriptionStyle = {
     marginTop: 10,
